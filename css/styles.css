@@ -168,6 +168,8 @@ color:#1D7CF2;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom:20px;
 }
+
+
 .services .card p{
     text-align:left !important;
     margin-left:15px;
@@ -182,11 +184,22 @@ color:#1D7CF2;
 @media (max-width:768px){
     .services .card{
         margin-bottom:20px;
+        width:250px;
+        height:570px;
     
     }
     .services .card p{
-        font-size:13px;
+        font-size:12px;
+        line-height: 1.5;
     }
+
+    .services h1{
+        font-size:22px;
+    }
+    .services .card h3{
+        font-size:18px;
+    }
+
 }
 
 
@@ -224,7 +237,16 @@ background-color:rgb(107, 161, 226);
 cursor: pointer;
 }
 
+@media (max-width:768px){
+    .team h1{
 
+        font-size:22px;
+    }
+    .team p{
+        font-size:13px;
+
+    }
+}
 
 
 /* Contact */
@@ -304,8 +326,19 @@ cursor: pointer;
         color:#fff;
 
     }
+    .contactus .card{
+        width:250px;
+        height:400px;
+    }
+    .contactus card p{
+        font-size:12px;
+    }
+    .contactus h3{
+        font-size:18px;
+    }
     #messagefield{
-        width:94%;
+        width:96%;
+
     }
 }
 
@@ -331,12 +364,48 @@ cursor: pointer;
 }
 .events p{
     font-size:15px;
+    line-height: 1.5;
 }
 
 .events .card-body{
     padding:5px 10px 5px 15px;
 }
+@media (max-width:768px){
+    .events .card{
+        margin-bottom:20px;
+        width:250px;
+        height:400px;
 
+    }
+    .events .card p{
+        font-size:13px;
+
+    }
+
+    .events h2{
+        font-size:22px;
+
+    }
+    .events .card h3{
+        font-size:18px;
+    }
+
+}
+
+
+/*Videos*/
+.videos h2{
+    color:#1D7CF2;
+    font-size:28px;
+}
+.videos hr{
+    width:190px;
+}
+@media (max-width:768px){
+    .videos h2{
+        font-size:22px;
+    }
+}
 
 /* footer*/
 .footer{
