@@ -182,7 +182,7 @@ padding:20px 10% 10% 10%;
     font-size:18px;
     }
     .aboutus p{
-        font-size:13px;
+        font-size:14px;
     }
 
 }
@@ -224,7 +224,7 @@ color:#1D7CF2;
     
     }
     .services .card p{
-        font-size:13px !important;
+        font-size:14px !important;
         line-height: 1.5;
     }
 
@@ -278,7 +278,7 @@ cursor: pointer;
         font-size:22px;
     }
     .team p{
-        font-size:13px;
+        font-size:14px;
 
     }
 }
@@ -357,7 +357,7 @@ cursor: pointer;
     .contactus .btn{
         width:85%;
         border-radius: 0;
-        font-size:15px;
+        font-size:14px;
         color:#fff;
 
     }
@@ -413,7 +413,7 @@ cursor: pointer;
 
     }
     .events .card p{
-        font-size:13px;
+        font-size:14px;
 
     }
 
