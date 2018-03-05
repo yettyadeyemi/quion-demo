@@ -121,7 +121,7 @@ background-size: cover;
         height:530px;
     }
     .header{
-        padding:35px;
+        padding: 55px 35px 35px 35px;
         height:720px;
     }
     .header img{
@@ -146,6 +146,7 @@ background-size: cover;
 
     .header h1{
     font-size: 20px;
+
     }
     .header p{
         font-size:13px;
@@ -380,7 +381,7 @@ cursor: pointer;
 
 /*Blog*/
 .events{
-    padding:40px 30px 30px 30px;
+    padding:10% 30px 30px 30px;
 }
 .events h2{
     color:#1D7CF2;
@@ -406,6 +407,9 @@ cursor: pointer;
     padding:5px 10px 5px 15px;
 }
 @media (max-width:768px){
+    .events {
+        padding-top:10%;
+    }
     .events .card{
         margin-bottom:20px;
         width:250px;
