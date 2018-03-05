@@ -42,7 +42,7 @@ p{
 
 
 
-}
+
 
 
         
@@ -148,10 +148,45 @@ background-size: cover;
     font-size: 20px;
     }
     .header p{
-        font-size:10px;
+        font-size:13px;
     }
     
 }
+
+.aboutus{
+
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 100%);
+padding:20px 10% 10% 10%;
+}
+.aboutus h1{
+    text-align:center;
+    color:rgb(134, 131, 131);
+
+}
+.aboutus h2{
+    text-align:center;
+    color:rgb(134, 131, 131);
+    font-size:26px;
+}
+.aboutus p{
+    line-height: 1.5;
+}
+.aboutus hr{
+    width:190px;
+}
+@media (max-width:768px){
+    .about h1{
+        font-size:22px;
+    }
+    .aboutus h2{
+    font-size:18px;
+    }
+    .aboutus p{
+        font-size:13px;
+    }
+
+}
+
 
 
 
@@ -164,7 +199,7 @@ color:#1D7CF2;
 .services .card{
     width:320px;
     line-height:4px;
-   height:550px;
+   height:530px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom:20px;
 }
@@ -189,7 +224,7 @@ color:#1D7CF2;
     
     }
     .services .card p{
-        font-size:12px;
+        font-size:13px !important;
         line-height: 1.5;
     }
 
@@ -331,7 +366,7 @@ cursor: pointer;
         height:400px;
     }
     .contactus card p{
-        font-size:12px;
+        font-size:13px !important;
     }
     .contactus h3{
         font-size:18px;
