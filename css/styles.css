@@ -327,7 +327,7 @@ cursor: pointer;
 
     }
     .contactus .card{
-        width:250px;
+        width:240px;
         height:400px;
     }
     .contactus card p{
@@ -337,7 +337,7 @@ cursor: pointer;
         font-size:18px;
     }
     #messagefield{
-        width:96%;
+        width:99%;
 
     }
 }
@@ -452,7 +452,7 @@ cursor: pointer;
 {
     height:500px;
     width:350px;
-    padding: 80px, 30px, 10px, 30px;
+    padding: 80px 30px 10px 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     margin-right:auto;
@@ -474,7 +474,7 @@ cursor: pointer;
 
     .register{
         width:290px;
-        padding: 80px, 20px, 10px, 15px;
+        padding: 80px 20px 10px 15px;
     }
 
     .register .input-group{
